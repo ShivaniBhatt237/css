@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {
+            display: inline-block;
+            padding:20px;
+            background-color:greenyellow;
+            position: relative;
+           
+        }
+        
+            li::after{
+                height: 3px;
+            width: 100%;
+            background: black;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            transform: scaleX(1);
+            transition: 3s;
+            }
+            li:hover::after{
+                transform: scaleX01);
+                width:100% ;
+            }
+    
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>
+            <select name="" id="">
+                <option value="">Men's wear</option>
+                <option value="">clothes</option>
+                <option value="">footwear</option>
+                <option value="">sungalsses</option>
+                <option value="">perfum</option>
+                <option value="">bages</option>
+                <option value="">lips stick</option>
+            </select>
+        </li>
+        <li>
+            <select name="" id="">womean's wear
+                <option value="">womean wear</option>
+                <option value="">clothes</option>
+                <option value="">footwear</option>
+                <option value="">sungalsses</option>
+                <option value="">perfum</option>
+                <option value="">bages</option>
+                <option value="">jewellary</option>
+
+            </select>
+        </li>
+        <li>
+          <select name="" id="">short code
+            <option value="">short code</option>
+            <option value="">Web icon</option>
+            <option value="">Typograph</option>
+        </select>
+        </li>
+        <li>contacts</li>
+    </ul>
+</body>
+</html>

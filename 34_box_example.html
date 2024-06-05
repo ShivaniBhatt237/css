@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.main{
+        .main{
             height: 200px;
             width: 200px;
             border:  2px solid;
@@ -15,40 +15,32 @@
         .first{
             height: 200px;
             width: 200px;
-            /* border:  2px solid; */
-            /* background: rgba(0,0,0,0.2); */
+            border:  2px solid;
+            background: rgba(0,0,0,0.2);
             transform: translate(100%,-100%);
             transition: 1s;
         }
+    
         .main:hover .first{
             transform: translate(0%,0%);
         }
-        .secoud{
+        .second{
             height: 200px;
             width: 200px;
-            /* border:  2px solid; */
-            /* background: rgba(0,0,0,0.2); */
-            transform: translate(-100%,0%);
+            border:  2px solid;
+            background: rgba(0,0,0,0.2);
+             transform: translate(-100%,0%); 
             transition: 1s;
         }
-        .main:hover .secoud{
+        .main:hover .second{
             transform: translate(0%,-100%);
         }
-
-   
     </style>
 </head>
-<body> 
-    
-
-    
-    <div class=""><img src="/image/fashion.jpg" alt="" height="500px" width="1200px">
-        
-            <div class="first"></div>
-            <div class="secoud"></div>
-       
-    
+<body>
+    <div class="main">
+        <div class="first"></div>
+        <div class="second"></div>
     </div>
-
 </body>
 </html>

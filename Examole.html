@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 800px;
+            width: ;
+            background-color: orange;
+            display: flex;
+            border: 2px solid black;
+        }
+        .div{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+        }
+         #one{
+
+position: static;
+top: 100px;
+bottom: 50px;} 
+ #two{
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            top: 50px;
+        } 
+         #three{
+            position: sticky;
+            top: 5px;
+            left: 20px;
+        } 
+        prenet 
+          #four{ 
+            position: relative;
+            top: 50px;
+            left: 50px;
+        } 
+        #five{
+            position: relative;
+        }
+        .ab{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 30px;
+            width: 30px;
+            border: 2px solid;
+        } 
+        #four{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="div" id="one">1</div>
+        <div class="div" id="two">2</div>
+        <div class="div" id="three">3</div>
+        <div class="div" id="four">4</div>
+        <div class="div" id="five">
+            <div class="ab">
+                5
+            </div>
+        </div>
+        <div class="div">6</div>
+        <div class="div">7</div>
+    </section>
+    <section>
+
+    </section>
+</body>
+</html>
