@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            margin: 200px auto;
+            -webkit-animation: rotate-scale-up 5s steps(10, start) alternate-reverse forwards;
+	        animation: rotate-scale-up 5s steps(10, start) alternate-reverse forwards;
+	background-color: brown;
+    text-align: center;
+   
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="div">
+shivani
+    </div>
+ <!-- site name: animista.net -->
+    
+</body>
+</html>
